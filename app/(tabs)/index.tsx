@@ -8,12 +8,12 @@ import { supabase } from '../../lib/supabase';
 // Each ID maps to a real Project Gutenberg text file in public/books/
 const MOCK_BOOKS: Book[] = [
   { id: '84',    title: 'Frankenstein',         author: 'Mary Shelley',         coverUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Sci-Fi' },
-  { id: '1342',  title: 'Pride and Prejudice',  author: 'Jane Austen',          coverUrl: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Romance' },
+  { id: '1342',  title: 'Pride and Prejudice',  author: 'Jane Austen',          coverUrl: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=400&auto=format&fit=crop', price: '150.00', genre: 'Romance' },
   { id: '11',    title: 'Alice in Wonderland',  author: 'Lewis Carroll',        coverUrl: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Fantasy' },
-  { id: '2701',  title: 'Moby Dick',            author: 'Herman Melville',      coverUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Fiction' },
+  { id: '2701',  title: 'Moby Dick',            author: 'Herman Melville',      coverUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop', price: '200.00', genre: 'Fiction' },
   { id: '1661',  title: 'Sherlock Holmes',       author: 'Arthur Conan Doyle',   coverUrl: 'https://images.unsplash.com/photo-1590595906931-81f04f0ccebb?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Mystery' },
-  { id: '4300',  title: 'Ulysses',              author: 'James Joyce',          coverUrl: 'https://images.unsplash.com/photo-1542871793-fd7e2b3ce8fb?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Fiction' },
-  { id: '16328', title: 'Beowulf',              author: 'Anonymous',            coverUrl: 'https://images.unsplash.com/photo-1588666309990-d68f08e3d4a6?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Fantasy' },
+  { id: '4300',  title: 'Ulysses',              author: 'James Joyce',          coverUrl: 'https://images.unsplash.com/photo-1542871793-fd7e2b3ce8fb?q=80&w=400&auto=format&fit=crop', price: '250.00', genre: 'Fiction' },
+  { id: '16328', title: 'Beowulf',              author: 'Anonymous',            coverUrl: 'https://images.unsplash.com/photo-1588666309990-d68f08e3d4a6?q=80&w=400&auto=format&fit=crop', price: '180.00', genre: 'Fantasy' },
   { id: '36',    title: 'War of the Worlds',    author: 'H. G. Wells',          coverUrl: 'https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?q=80&w=400&auto=format&fit=crop', price: '0.00', genre: 'Sci-Fi' },
 ];
 
